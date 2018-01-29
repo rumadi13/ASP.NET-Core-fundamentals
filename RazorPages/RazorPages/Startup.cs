@@ -11,6 +11,7 @@ namespace RazorPages
 {
     public class Startup
     {
+        //Configures services and the request pipeline. 
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;

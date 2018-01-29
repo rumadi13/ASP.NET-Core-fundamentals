@@ -8,6 +8,7 @@ namespace RazorPages.Pages
 {
     public class AboutModel : PageModel
     {
+        //The About, Contact and Index pages are basic pages you can use to start an app
         public string Message { get; set; }
 
         public void OnGet()
